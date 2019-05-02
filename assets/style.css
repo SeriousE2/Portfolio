@@ -1,0 +1,46 @@
+#externalLinks {
+    height: 35px;
+    width: 100%;
+    font-size: 12px;
+}
+
+
+
+#modalText {
+    border: 1px solid black;
+    margin: auto;
+}
+.modal-content {
+    margin: auto;
+    width: 500px;
+    
+}
+#resume {
+    margin-top: 25px;
+    height: 600px;
+}
+#resumeModal {
+    background: rgba(207, 108, 108, 0.4);
+}
+#close{
+    margin: auto;
+    width: 15%;
+}
+#resumeIcon {
+    width: 18%;
+    float: left;
+}
+#resumeBtn {
+    background-color: transparent;
+    border: 0;
+    width: 200px;
+}
+/*Modal Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
